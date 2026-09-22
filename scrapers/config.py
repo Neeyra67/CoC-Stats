@@ -10,7 +10,7 @@ if RAW_TAG is None:
     raise ValueError("ERROR: CLAN_TAG not found.")
 
 CLAN_TAG = RAW_TAG.replace("#", "%23")
-BASE_URL = "https://cocproxy.royaleapi.dev/v1"
+BASE_URL = "https://api.clashofclans.com/v1/clans/%232RVRP900V"
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
