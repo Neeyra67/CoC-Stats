@@ -10,7 +10,7 @@ if RAW_TAG is None:
     raise ValueError("ERROR: CLAN_TAG not found.")
 
 CLAN_TAG = RAW_TAG.replace("#", "%23")
-BASE_URL = "https://api.clashofclans.com/v1/clans/%232RVRP900V"
+BASE_URL = "https://api.clashofclans.com/v1/clans/"
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
